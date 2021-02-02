@@ -1,0 +1,8 @@
+{
+    "name": "InScane SMP",
+    "start_url": ".",
+    "display": "minimal-ui",
+    "orientation": "any",
+    "lang": "en",
+    "scope": "."
+}
