@@ -4,6 +4,7 @@ site_author: "Ashton Miller"
 theme:
   name: 'material'
   lang: 'en'
+  favicon: 'images/icon.png'
 
 extra: 
   manifest: 'manifest.webmanifest'

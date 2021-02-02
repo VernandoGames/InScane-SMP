@@ -1,8 +1,16 @@
 {
-    "name": "InScane SMP",
+    "name": "InScane SMP Documentation",
+    "short_name": "InScane SMP",
     "start_url": ".",
     "display": "minimal-ui",
     "orientation": "any",
     "lang": "en",
-    "scope": "."
+    "scope": ".",
+    "icons": [
+        {
+            "src": "/images/icon.png",
+            "type": "image/png",
+            "sizes": "250x250"
+        }
+    ]
 }
