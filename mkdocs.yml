@@ -40,6 +40,11 @@ plugins:
   - search
   - git-revision-date-localized
 
+# Register the service worker
+extra_javascript:
+#  - 'javascripts/sw-src.js'
+  - 'javascripts/rsw.js'
+
 #PWA Config
 use_directory_urls: false
 scope: "./"

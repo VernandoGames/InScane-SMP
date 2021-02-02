@@ -1,5 +1,6 @@
 mkdocs
 mkdocs-material
 mkdocs-git-revision-date-localized-plugin
-pygments
+Pygments
+markdown
 pymdown-extensions
