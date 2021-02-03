@@ -4,6 +4,11 @@
   <script>
     console.log("New header loaded!")
   </script>
+  <script>
+    if (window.location.protocol != "https" && window.location.hostname != "localhost") {
+      window.location.protocol = "https"
+    }
+  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-95XW9854VX"></script>
   <script>
@@ -13,4 +18,18 @@
 
   gtag('config', 'G-95XW9854VX');
   </script>
+{% endblock %}
+
+{% block site_meta %}
+
+<meta name="theme-color" content="#4051B5">
+<link rel="canonical" href="https://vernandogames.github.io/InScane-SMP"/>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<meta name="description" content="Official documentation for the InScane SMP Server and available commands.">
+
+<meta name="author" content="Ashton Miller">
+
 {% endblock %}
