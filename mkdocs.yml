@@ -12,6 +12,9 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
+  analytics:
+    gtag: G-95XW9854VX
+  custom_dir: 'docs/overrides'
 
 extra: 
   manifest: 'manifest.webmanifest'
@@ -51,9 +54,9 @@ plugins:
       prebuild_index: true
   - git-revision-date-localized
 
-google_analytics:
-  - !!python/object/apply:os.getenv ["TRACKINGID"]
-  - auto
+#google_analytics:
+#  - G-95XW9854VX #!!python/object/apply:os.getenv ["TRACKINGID"]
+#  - auto
 
 # Register the service worker
 extra_javascript:
