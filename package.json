@@ -1,0 +1,19 @@
+{
+  "name": "InScane-SMP",
+  "version": "0.0.1",
+  "description": "Official Documentation for the InScane Minecraft SMP Server",
+  "main": "index.js",
+  "authors": {
+    "name": "Ashton Miller",
+    "email": "parkourdev@yahoo.com"
+  },
+  "repository": "VernandoGames/Inscane-SMP/InScane-SMP",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
