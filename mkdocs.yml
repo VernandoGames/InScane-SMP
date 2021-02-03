@@ -5,6 +5,8 @@ theme:
   name: 'material'
   lang: 'en'
   favicon: 'images/icon.png'
+  palette: 
+    scheme: preference
 
 extra: 
   manifest: 'manifest.webmanifest'
