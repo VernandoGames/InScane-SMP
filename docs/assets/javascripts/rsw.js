@@ -1,6 +1,6 @@
 // Check compatibility for the browser we're running this in
 
-const BASE_URL = https://vernandogames.github.io/InScane-SMP
+const BASE_URL = 'https://vernandogames.github.io/InScane-SMP'
 
 if ("serviceWorker" in navigator) {
     if (navigator.serviceWorker.controller) {
