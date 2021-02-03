@@ -1,0 +1,68 @@
+{
+    "LandOwnership": {
+        "Description": {
+
+        },
+        "HeadCategories": {
+
+        },
+        "Commands": {
+            "Claim": {
+                "Description": "*Claiming* a plot of land allows you to protect this land and whitelist certain people to have access to it.\n *Note: this does not prevent people from entering this land, just interacting with storage and breaking/placing objects*",
+                "Usage": "/claim",
+                "Command": "claim"
+            },
+            "Unclaim": {
+                "Description": "*Unclaiming* land removes your ownership from this plot of land.",
+                "Usage": "/unclaim",
+                "Command": "unclaim"
+            },
+            "Trust": {
+                "Description": "Setting a user as *trusted* allows them to bypass the limitations applied to normal users on your land. Meaning, they can access all of your storage as well as place/destroy blocks. ",
+                "Usage": "/trust <user>",
+                "Command": "trust",
+                "Arguments": [
+                    "<user>"
+                ]
+            },
+            "Untrust": {
+                "Description": "Running this command removes a user's *trusted** permissions, meaning they can no longer access any of your storage or place/destroy blocks on your land.",
+                "Usage": "/untrust <user>",
+                "Command": "untrust",
+                "Arguments": [
+                    "<user>"
+                ]
+            }
+        }
+    },
+    "WorldTravel": {
+        "Description": "With this SMP, we want to keep things simple for new players. Because of this, we have systems for teleporting to various points of the world, as well as *other worlds*.",
+        "HeadCategories": {
+
+        },
+        "Commands": {
+            "Nether": {
+                "Description": "Running this command will immediately teleport you to the nether, as if you had just gone through a portal.",
+                "Command": "nether"
+            },
+            "End": {
+                "Description": "Running this command will immediately teleport you to the end, as if you had just gone through a portal.",
+                "Command": "end"
+            },
+            "Set Home": {
+                "Description": "Running this command will set your current location as a teleport location, tagged with the name you provide.\n*Setting the name to a previously set name will overwrite the previously set location.*",
+                "Command": "sethome",
+                "Arguments": [
+                    "<name>"
+                ]
+            },
+            "Homes": {
+                "Description": "Running this command will bring you to the specified teleport location if available.",
+                "Command": "homes",
+                "Arguments": [
+                    "<name>"
+                ]
+            }
+        }
+    }
+}
