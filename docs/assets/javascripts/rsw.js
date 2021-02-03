@@ -7,7 +7,7 @@ if ("serviceWorker" in navigator) {
       console.log("[PWA Builder] Attempting to register new Service worker..");
       navigator.serviceWorker
         .register("../pwabuilder-sw.js", {
-          scope: "./"
+          scope: "../"
         })
         .then(function (reg) {
           console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
