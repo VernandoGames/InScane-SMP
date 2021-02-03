@@ -1,6 +1,7 @@
 site_name: "InScane SMP"
 site_description: "Official documentation for the InScane SMP Server and available commands."
 site_author: "Ashton Miller"
+site_url: "https://vernandogames.github.io/InScane-SMP"
 theme:
   name: 'material'
   lang: 'en'
