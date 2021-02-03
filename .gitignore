@@ -1,5 +1,3 @@
 node_modules
-<<<<<<< Updated upstream
 site/
-=======
->>>>>>> Stashed changes
+.env
