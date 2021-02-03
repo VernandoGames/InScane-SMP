@@ -61,7 +61,8 @@ plugins:
 # Register the service worker
 extra_javascript:
 #  - 'javascripts/sw-src.js'
-  - 'assets/javascripts/rsw.js'
+#  - 'assets/javascripts/rsw.js'
+  - 'assets/javascripts/register-service-worker.js'
 
 #PWA Config
 use_directory_urls: false
