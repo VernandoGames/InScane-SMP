@@ -1,7 +1,7 @@
 {
     "name": "Scane SMP Documentation",
     "short_name": "Scane SMP",
-    "start_url": ".",
+    "start_url": "./InScane-SMP",
     "display": "minimal-ui",
     "orientation": "any",
     "lang": "en",
