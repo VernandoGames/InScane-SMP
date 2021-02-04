@@ -33,6 +33,8 @@ jobs:
       - name: Deploy Vuepress
         uses: rreichel3/vuepress-github-actions-deploy@v3.1
         env:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REOP: VernandoGames/InScane-SMP
+          TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: yarn build
           BUILD_DIR: src/.vuepress/dist/
