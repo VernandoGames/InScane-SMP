@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "8ef7d429c3bc41851f26f4c224a08e87"
+    "revision": "8824f88e8f20fa042dd1af417265a1bd"
   },
   {
     "url": "App.html",
-    "revision": "779db0c87e850a33e179079c3e2e921f"
+    "revision": "fc1949114404602c6e7be0b2c598f76d"
   },
   {
     "url": "assets/css/0.styles.b8695aaf.css",
@@ -118,32 +118,32 @@ self.__precacheManifest = [
     "revision": "f26a01b5abe8830bffaa0d8b878ff74c"
   },
   {
-    "url": "assets/js/app.da9a083c.js",
-    "revision": "31939362e6ed75af77902d484c700408"
+    "url": "assets/js/app.2b19e912.js",
+    "revision": "26519f86cafccc32e1c5fba2a8cc6eb9"
   },
   {
     "url": "commands/index.html",
-    "revision": "84b58eb4813beedd5c7c90f231e06462"
+    "revision": "546504958d9949597eeece531e8d2340"
   },
   {
     "url": "commands/LandOwnership.html",
-    "revision": "7ec83047acdc7c439622650e8e7f6be9"
+    "revision": "fb53d956e11ed7f205548cccc658465c"
   },
   {
     "url": "commands/WorldTravel.html",
-    "revision": "606396e3ac36603cd8a610481b1eff39"
+    "revision": "bdced9da9e695ce0753fe43d2b87698a"
   },
   {
     "url": "config/index.html",
-    "revision": "bbddb8f6109a5a77844b4f4b0c31c0c8"
+    "revision": "294300f13d07d9e3c91b137713cf2c92"
   },
   {
     "url": "guide/index.html",
-    "revision": "7b5f51441f93faa9ad7aa1d2afe210df"
+    "revision": "39226802bfaa8f830a7e83678eeacbd0"
   },
   {
     "url": "guide/using-vue.html",
-    "revision": "12175b41f40db475f9bb040d615050f6"
+    "revision": "93064c0ff3135cbb95c282f87b3bf736"
   },
   {
     "url": "images/icon.png",
@@ -151,7 +151,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "9a7f889b0f55419252d90504ac5b675a"
+    "revision": "8dbedf75358a82c6e07b8352c5c41a70"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
