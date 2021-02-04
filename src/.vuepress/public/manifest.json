@@ -1,6 +1,6 @@
 {
-    "name": "InScane SMP Documentation",
-    "short_name": "InScane SMP",
+    "name": "Scane SMP Documentation",
+    "short_name": "Scane SMP",
     "start_url": ".",
     "display": "minimal-ui",
     "orientation": "any",

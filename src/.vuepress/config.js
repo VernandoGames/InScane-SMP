@@ -1,13 +1,11 @@
 const { description, version } = require('../../package')
 const webpack = require('webpack');
 
-console.log("bro y u gay")
-
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'InScane SMP',
+  title: 'Scane SMP',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -38,14 +36,6 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
         text: 'Commands',
         link: '/commands/'
       }
@@ -61,6 +51,16 @@ module.exports = {
           ]
         }
       ],
+      '/commands/': [
+        {
+          title: 'Commands',
+          collapsable: false,
+          children: [
+            'LandOwnership',
+            'WorldTravel',
+          ]
+        }
+      ]
     }
   },
 
