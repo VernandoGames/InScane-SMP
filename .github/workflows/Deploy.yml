@@ -29,11 +29,11 @@ jobs:
         run: |
           yarn install
           yarn build
-          cd ./src/.vuepress/dist
-          git remote rm origin
-          git remote add origin "https://x-access-token:${ secrets.GITHUB_TOKEN }@github.com/VernandoGames/InScane-SMP.git"
-          git commit -m "Update Docs"
-          git push --force "https://x-access-token:${ secrets.GITHUB_TOKEN }@github.com/VernandoGames/InScane-SMP.git" master:gh_pages
-          rm -fr .git
-          echo "Successfully deployed!
+      
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: ./src/.vuepress/dist
           
