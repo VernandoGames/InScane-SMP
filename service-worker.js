@@ -27,15 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "8824f88e8f20fa042dd1af417265a1bd"
+    "revision": "e499e4ea73d1a776f4ac337954e045b3"
   },
   {
     "url": "App.html",
-    "revision": "fc1949114404602c6e7be0b2c598f76d"
+    "revision": "53c276ff9f79b8b9775d2da61063f1b9"
   },
   {
-    "url": "assets/css/0.styles.b8695aaf.css",
-    "revision": "1b7656265363f58b4e2573111c8d6592"
+    "url": "assets/css/0.styles.a144e11e.css",
+    "revision": "1934ab56a07652c695b58c9dfd0b638d"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -118,32 +118,32 @@ self.__precacheManifest = [
     "revision": "f26a01b5abe8830bffaa0d8b878ff74c"
   },
   {
-    "url": "assets/js/app.2b19e912.js",
-    "revision": "26519f86cafccc32e1c5fba2a8cc6eb9"
+    "url": "assets/js/app.468041f3.js",
+    "revision": "7fdfd87278c15f3b943e7c53284c7beb"
   },
   {
     "url": "commands/index.html",
-    "revision": "546504958d9949597eeece531e8d2340"
+    "revision": "23451a62b4a4722e61c1202756e9f889"
   },
   {
     "url": "commands/LandOwnership.html",
-    "revision": "fb53d956e11ed7f205548cccc658465c"
+    "revision": "5846e39c1dfdb6fb9f35e8eabff79fad"
   },
   {
     "url": "commands/WorldTravel.html",
-    "revision": "bdced9da9e695ce0753fe43d2b87698a"
+    "revision": "8b7537e8c1f3213a09556689837206fb"
   },
   {
     "url": "config/index.html",
-    "revision": "294300f13d07d9e3c91b137713cf2c92"
+    "revision": "3525d0f89230a2c62e6545d1307623cd"
   },
   {
     "url": "guide/index.html",
-    "revision": "39226802bfaa8f830a7e83678eeacbd0"
+    "revision": "74265e45d6ada3795bf08cbcd7f247f8"
   },
   {
     "url": "guide/using-vue.html",
-    "revision": "93064c0ff3135cbb95c282f87b3bf736"
+    "revision": "8cbc81b689caf5a32d191de4403b42fc"
   },
   {
     "url": "images/icon.png",
@@ -151,7 +151,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "8dbedf75358a82c6e07b8352c5c41a70"
+    "revision": "6192920b5ebdd4da90e8741298a4787e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
