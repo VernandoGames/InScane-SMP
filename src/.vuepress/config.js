@@ -80,6 +80,7 @@ module.exports = {
   ],
 
   dest: './dist',
+  base: '/InScane-SMP/',
 
   configureWebpack: () => ({
     plugins: [
