@@ -79,6 +79,8 @@ module.exports = {
     ]
   ],
 
+  dest: './dist',
+
   configureWebpack: () => ({
     plugins: [
       new webpack.DefinePlugin({
