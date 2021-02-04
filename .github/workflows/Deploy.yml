@@ -26,10 +26,14 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Deploy Vuepress
-        uses: jenkey2011/vuepress-deploy@dev
-        env:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TARGET_REOP: VernandoGames/InScane-SMP
-          TARGET_BRANCH: gh_pages
-          BUILD_SCRIPT: yarn install && yarn build
-          BUILD_DIR: src/.vuepress/dist/
+        run: |
+          yarn install
+          yarn build
+          cd ./src/.vuepress/dist
+          git remote rm origin
+          git remote add origin "https://x-access-token:${ secrets.GITHUB_TOKEN }@github.com/VernandoGames/InScane-SMP.git"
+          git commit -m "Update Docs"
+          git push --force "https://x-access-token:${ secrets.GITHUB_TOKEN }@github.com/VernandoGames/InScane-SMP.git" master:gh_pages
+          rm -fr .git
+          echo "Successfully deployed!
+          
