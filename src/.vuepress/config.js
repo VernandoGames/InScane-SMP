@@ -38,6 +38,10 @@ module.exports = {
       {
         text: 'Commands',
         link: '/commands/'
+      },
+      {
+        text: 'Rules',
+        link: '/rules/'
       }
     ],
     sidebar: {
