@@ -22,19 +22,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        
-      - name: Install Dependencies
-        uses: Jaid/action-npm-install@v1.2.4
-        with:
-          packageManager: yarn
 
 
       # Runs a single command using the runners shell
       - name: Deploy Vuepress
         uses: rreichel3/vuepress-github-actions-deploy@v3.1
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_REOP: VernandoGames/InScane-SMP
           TARGET_BRANCH: gh_pages
-          BUILD_SCRIPT: yarn build
+          BUILD_SCRIPT: yarn install && yarn build
           BUILD_DIR: src/.vuepress/dist/
