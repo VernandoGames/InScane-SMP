@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main, vuejs-vuepress ]
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,6 +25,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Deploy Vuepress
-        uses: testthedocs/github-pages-deploy-action@0.0.3
+        uses: rreichel3/vuepress-github-actions-deploy@v3.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
