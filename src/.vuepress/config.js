@@ -21,6 +21,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'icon', href: '/images/icon.png' }],
   ],
 
   /**
@@ -36,13 +37,13 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
+        text: 'Rules',
+        link: '/rules/'
+      },
+      {
         text: 'Commands',
         link: '/commands/'
       },
-      {
-        text: 'Rules',
-        link: '/rules/'
-      }
     ],
     sidebar: {
       '/guide/': [
