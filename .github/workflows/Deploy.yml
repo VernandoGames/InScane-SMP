@@ -26,7 +26,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Deploy Vuepress
-        uses: rreichel3/vuepress-github-actions-deploy@v3.1
+        uses: jenkey2011/vuepress-deploy@dev
         env:
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_REOP: VernandoGames/InScane-SMP
