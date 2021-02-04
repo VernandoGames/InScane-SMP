@@ -27,4 +27,6 @@ jobs:
       - name: Deploy Vuepress
         uses: rreichel3/vuepress-github-actions-deploy@v3.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_SCRIPT: yarn build
+          BUILD_DIR: src/.vuepress/dist/
