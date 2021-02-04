@@ -1,6 +1,6 @@
 {
-  "name": "InScane-SMP",
-  "version": "0.0.1",
+  "name": "inscane-smp",
+  "version": "1.0.2",
   "description": "Official Documentation for the InScane Minecraft SMP Server",
   "main": "index.js",
   "authors": {
@@ -8,12 +8,26 @@
     "email": "parkourdev@yahoo.com"
   },
   "repository": "VernandoGames/Inscane-SMP/InScane-SMP",
+  "private": true,
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
   "license": "MIT",
+  "dependencies": {
+    "register-service-worker": "^1.7.1",
+    "vue-router": "^3.2.0",
+    "webpack": "^4.0.0"
+  },
   "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-eslint": "^4.5.11",
+    "@vue/cli-plugin-pwa": "^4.5.11",
+    "@vue/cli-plugin-router": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "@vuepress/plugin-pwa": "^1.8.0",
+    "sass-loader": "^10.1.1",
+    "vue-template-compiler": "^2.6.12",
     "vuepress": "^1.5.3"
   }
 }
