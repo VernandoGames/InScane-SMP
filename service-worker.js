@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "4a7c102ef7afe0c4b1b2076ae56632ec"
+    "revision": "442bed6fd8f27e38cd36e6958ac716e9"
   },
   {
     "url": "App.html",
-    "revision": "ab8ddc3e3bde0f8f4515c35c6a4ec9f7"
+    "revision": "e0ea8f0e610f18bbd4ee4067589e9c9a"
   },
   {
     "url": "assets/css/0.styles.d27508df.css",
@@ -134,32 +134,32 @@ self.__precacheManifest = [
     "revision": "e2dccbf49400c82e2b8a67437689f43f"
   },
   {
-    "url": "assets/js/app.f9cbb6b0.js",
-    "revision": "fe9a46b2b31158d8558ceda44580eab6"
+    "url": "assets/js/app.23e374d3.js",
+    "revision": "906fb12216df6af4ed91a4e8a45b264e"
   },
   {
     "url": "commands/index.html",
-    "revision": "2bf2125363e6a34861737a58b14608ab"
+    "revision": "eb833d5f5fd37a5c175d6156eeffab54"
   },
   {
     "url": "commands/LandOwnership.html",
-    "revision": "5223903e43b1814f6a984d6dcadfc963"
+    "revision": "e4bd0b7aaa7db4fb3b3eda2b984356b4"
   },
   {
     "url": "commands/WorldTravel.html",
-    "revision": "910036ecad3b07a4716e8a209daec287"
+    "revision": "a844f283525e2011ef8331756988d935"
   },
   {
     "url": "config/index.html",
-    "revision": "e4528a510bf5baeaadf7c88baa579903"
+    "revision": "ce3525af521da05b301c8d618aa3c91e"
   },
   {
     "url": "guide/index.html",
-    "revision": "65a63e8f22682c5ecfa08f0fc7412682"
+    "revision": "0a5483cac8198cab4c11a6787a3ec978"
   },
   {
     "url": "guide/using-vue.html",
-    "revision": "1ea46fdd00cd7e8735ee05d55e72d9e8"
+    "revision": "713b699f6700ba701c4ceb4d3fdd239c"
   },
   {
     "url": "images/icon-512.png",
@@ -175,11 +175,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "eef4f71452ec2b3cd07481b46ee79725"
+    "revision": "4b8fb0e442710aa622a1faca4a43781c"
   },
   {
     "url": "Rules/index.html",
-    "revision": "2393b9fad76e7a5e3d05b1f1d670e9cc"
+    "revision": "30ea9ab3b9da103da9adb26c2cd33588"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
