@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7bcc75661b5def448664bb679c5b0f5b"
+    "revision": "4a7c102ef7afe0c4b1b2076ae56632ec"
   },
   {
     "url": "App.html",
-    "revision": "ddf89332778c1a44a13831f8a9e02467"
+    "revision": "ab8ddc3e3bde0f8f4515c35c6a4ec9f7"
   },
   {
     "url": "assets/css/0.styles.d27508df.css",
@@ -134,36 +134,40 @@ self.__precacheManifest = [
     "revision": "e2dccbf49400c82e2b8a67437689f43f"
   },
   {
-    "url": "assets/js/app.c7d24d99.js",
-    "revision": "087310290ec4196494a6a8335496c0ce"
+    "url": "assets/js/app.f9cbb6b0.js",
+    "revision": "fe9a46b2b31158d8558ceda44580eab6"
   },
   {
     "url": "commands/index.html",
-    "revision": "93b0672ebcb3f7abfe4c092255760c20"
+    "revision": "2bf2125363e6a34861737a58b14608ab"
   },
   {
     "url": "commands/LandOwnership.html",
-    "revision": "efd4e59a33c886960d17bb7b8f104e58"
+    "revision": "5223903e43b1814f6a984d6dcadfc963"
   },
   {
     "url": "commands/WorldTravel.html",
-    "revision": "091c4a7c980f53b0f0d86c928b4ca190"
+    "revision": "910036ecad3b07a4716e8a209daec287"
   },
   {
     "url": "config/index.html",
-    "revision": "968ce8ab47d80c4f363736c2d9cb466c"
+    "revision": "e4528a510bf5baeaadf7c88baa579903"
   },
   {
     "url": "guide/index.html",
-    "revision": "6b0d494ffec75bb759ec0b8c267d96af"
+    "revision": "65a63e8f22682c5ecfa08f0fc7412682"
   },
   {
     "url": "guide/using-vue.html",
-    "revision": "947c0cd06c97d4befb937bb4b1fb21aa"
+    "revision": "1ea46fdd00cd7e8735ee05d55e72d9e8"
   },
   {
     "url": "images/icon-512.png",
     "revision": "a1d5026f6d143a3f0f7bced9e2973e98"
+  },
+  {
+    "url": "images/icon-maskable.png",
+    "revision": "6bcb3f06a343ef12e1fd24cd8185267c"
   },
   {
     "url": "images/icon.png",
@@ -171,11 +175,11 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1c367b8577ae92a89ae88bf7c5429627"
+    "revision": "eef4f71452ec2b3cd07481b46ee79725"
   },
   {
     "url": "Rules/index.html",
-    "revision": "9b30486c766577f16a8bad24b297a5ee"
+    "revision": "2393b9fad76e7a5e3d05b1f1d670e9cc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
