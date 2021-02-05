@@ -22,6 +22,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
     ['link', { rel: 'icon', href: '/images/icon.png' }],
+    ['link', { rel: "apple-touch-icon", href: '/images/launcher-icon.png'}],
   ],
 
   theme: 'default-prefers-color-scheme',
