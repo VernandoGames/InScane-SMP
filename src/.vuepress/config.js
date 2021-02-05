@@ -48,6 +48,10 @@ module.exports = {
         text: 'Commands',
         link: '/commands/'
       },
+      {
+        text: 'Updates',
+        link: '/UpdateLog/'
+      },
     ],
     sidebar: {
       '/guide/': [
@@ -67,6 +71,17 @@ module.exports = {
           children: [
             'LandOwnership',
             'WorldTravel',
+          ]
+        }
+      ],
+      '/UpdateLog/': [
+        {
+          title: 'Updates',
+          collapsable: false,
+          children: [
+            'V1.1.2',
+            'V1.1.1',
+            'V1.1.0'
           ]
         }
       ]
