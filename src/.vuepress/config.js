@@ -20,9 +20,11 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
     ['link', { rel: 'icon', href: '/images/icon.png' }],
   ],
+
+  theme: 'default-prefers-color-scheme',
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -35,6 +37,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    smoothScroll: true,
     nav: [
       {
         text: 'Rules',

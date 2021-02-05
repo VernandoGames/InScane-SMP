@@ -9,6 +9,6 @@
 <rule num=6 context='Do NOT Harass others on the SMP.'/>
 <rule num=7 context='Do NOT Bully / Troll People in the SMP.'/>
 <rule num=8 context='Try to be Family Friendly in the SMP'/>
-<rule num=9 context='Do NOT Hack, Exploit, or Cheat..'/>
+<rule num=9 context='No Hacking, Exploiting, or Glitching.'/>
 <rule num=10 context='DO NOT Claim Land UNLESS you are actually going to use it..'/>
 <rule num=11 context='DO NOT Claim Public Domain as your own land.'/>
