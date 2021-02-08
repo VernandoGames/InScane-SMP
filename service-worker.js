@@ -27,11 +27,15 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7a8c183a62d2582ad63a7c3e3e22b388"
+    "revision": "2a7eed57401ecf5dbb41bef6ddeb4c64"
   },
   {
     "url": "App.html",
-    "revision": "dd299ed66f55922a53fa62c69841ae76"
+    "revision": "852a38520623ebbc814bcc11a9fc17cf"
+  },
+  {
+    "url": "articles/BenefitsOfClaimingLand.html",
+    "revision": "eadf6dc4de3517c7bfa23028326055a0"
   },
   {
     "url": "assets/css/0.styles.d27508df.css",
@@ -58,8 +62,8 @@ self.__precacheManifest = [
     "revision": "1f85602b11f7e2fbd689066a0ee67c04"
   },
   {
-    "url": "assets/js/14.745f67d0.js",
-    "revision": "f363646a09bc04728c76a0c6662c1f6f"
+    "url": "assets/js/14.26112ebc.js",
+    "revision": "36c9808c26165b42374c570807f1fe23"
   },
   {
     "url": "assets/js/15.70ec99f8.js",
@@ -102,48 +106,52 @@ self.__precacheManifest = [
     "revision": "d7d29f2b0f3d4b1091dedb6b8b4fb3c2"
   },
   {
-    "url": "assets/js/24.5ce8f650.js",
-    "revision": "d47f205691ad6d67ba45b2cdbd478089"
+    "url": "assets/js/24.a127c899.js",
+    "revision": "6152554e4cf360e50fe1af9d6c44ec1e"
   },
   {
-    "url": "assets/js/25.e0c7e91e.js",
-    "revision": "9d447f674f1fba3099acd1fa5f7b8f64"
+    "url": "assets/js/25.610e0647.js",
+    "revision": "95b99fc80572add43e5fe3c9e9fb3762"
   },
   {
-    "url": "assets/js/26.be62c41d.js",
-    "revision": "e4232ad0ae8aadabaf58fc1ff93db02d"
+    "url": "assets/js/26.b3a115b3.js",
+    "revision": "632ef531e81c9f4204eb850c51002199"
   },
   {
-    "url": "assets/js/27.4451fc88.js",
-    "revision": "bdfed74866fe41228a9341b776094e52"
+    "url": "assets/js/27.5087c68f.js",
+    "revision": "4a2c6a7561903ac74b5f6d9f7d46aa6c"
   },
   {
-    "url": "assets/js/28.26aac740.js",
-    "revision": "b2ace739ee9942215f9a3acad20da703"
+    "url": "assets/js/28.e78fe69b.js",
+    "revision": "327503df1b0750597fa18aa82cd5d189"
   },
   {
-    "url": "assets/js/29.6ccc52a0.js",
-    "revision": "bd09a08bb11a2f01292eedd076793547"
+    "url": "assets/js/29.249383d0.js",
+    "revision": "17219cad9b6995c3d256f350b99e24a1"
   },
   {
     "url": "assets/js/3.cfd6e9e1.js",
     "revision": "67d3f95373657e5c0d08c5eb303e1536"
   },
   {
-    "url": "assets/js/30.d3641d6d.js",
-    "revision": "28412e906be0d3e7c0ced996fa7fb899"
+    "url": "assets/js/30.e4a05ea9.js",
+    "revision": "625f5ace1e8392d66ca79aab8900c86f"
   },
   {
-    "url": "assets/js/4.b8e6ab69.js",
-    "revision": "f8c4e50b8a592fe8f429524f677539d8"
+    "url": "assets/js/31.a75690a5.js",
+    "revision": "9e6c3f0e3be8c907c02a9cafd8e22487"
+  },
+  {
+    "url": "assets/js/4.804c03e3.js",
+    "revision": "42c617be9e3b5290c05065db77bad1f5"
   },
   {
     "url": "assets/js/5.48c30035.js",
     "revision": "668a3270c3820d3c83b94e62fccd1ab0"
   },
   {
-    "url": "assets/js/6.c774f830.js",
-    "revision": "a84426a9bc5eeaaba8729d888dd6f224"
+    "url": "assets/js/6.d53a7637.js",
+    "revision": "54e04fe24bf01985195830c88c68a65c"
   },
   {
     "url": "assets/js/7.cac0dac1.js",
@@ -158,32 +166,32 @@ self.__precacheManifest = [
     "revision": "e2dccbf49400c82e2b8a67437689f43f"
   },
   {
-    "url": "assets/js/app.ff44bbce.js",
-    "revision": "894cc740f215af91d61ef8d925aac531"
+    "url": "assets/js/app.de206d95.js",
+    "revision": "f78abfb1255560c9a26bd61155e99ad3"
   },
   {
     "url": "commands/index.html",
-    "revision": "76df2ba45bf2b8530ad2608aeeede4b8"
+    "revision": "0d62f743f6811262344253a8fe5f0ee3"
   },
   {
     "url": "commands/LandOwnership.html",
-    "revision": "689ccd84808da623171e0438f6459bbf"
+    "revision": "1b0dc33909e79a2938b52365c60beb74"
   },
   {
     "url": "commands/WorldTravel.html",
-    "revision": "99b912543acedb08b98d78a976cd3739"
+    "revision": "3c0ce1585c8c28fc20f14a1572903494"
   },
   {
     "url": "config/index.html",
-    "revision": "2e8b04d932076caa9b337802d5b24972"
+    "revision": "5bdc87e5ca94e4a4f6d4d9d20668960e"
   },
   {
     "url": "guide/index.html",
-    "revision": "024f0e83ef6f3cc8ee47a9b2eb859b0d"
+    "revision": "90d208d318bd135db37feaf0e95579e9"
   },
   {
     "url": "guide/using-vue.html",
-    "revision": "e3ddae2bbc6fa87b004726284c7227c6"
+    "revision": "a032e727fda580bc60eac0f779fc72ca"
   },
   {
     "url": "images/icon-512.png",
@@ -203,35 +211,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "5a56c349c44fc051a48ebe145a9b136b"
+    "revision": "807c9138374fb96429f2e29e915fcbdf"
   },
   {
     "url": "Plugins/GriefPrevention/Commands.html",
-    "revision": "76587cb4e3c7000ff7f530825224d9f7"
+    "revision": "867c9fe9de500fc6813ce047377a5cdd"
   },
   {
     "url": "Plugins/GriefPrevention/index.html",
-    "revision": "7a3ce77db4b81eff23d33ed507612fb0"
+    "revision": "39a13ae07d9c9d6c9f4bcafb8510628a"
   },
   {
     "url": "Rules/index.html",
-    "revision": "07b086b0d415e5fcac603a2f9f8c21e5"
+    "revision": "3cfbef66c806c76f6cd48196010553d1"
   },
   {
     "url": "UpdateLog/index.html",
-    "revision": "bcfc695c5d67bdf8cb4a6909b5938826"
+    "revision": "e963a922abb084267ca853a437759809"
   },
   {
     "url": "UpdateLog/V1.1.0.html",
-    "revision": "2e19a4a616e66e5c53934df0a31161c2"
+    "revision": "e0db4d813428e11491b495236dfa5d7d"
   },
   {
     "url": "UpdateLog/V1.1.1.html",
-    "revision": "e813982bfc8f8b83b139c5f5507c5ab3"
+    "revision": "c5dcc2368dbedaa49469299275b0d460"
   },
   {
     "url": "UpdateLog/V1.1.2.html",
-    "revision": "5e7dd0d92631120251031cde194d4388"
+    "revision": "1b0df4490be781da647bc2fb4ede224d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
